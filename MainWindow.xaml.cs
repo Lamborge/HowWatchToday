@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using CsQuery;
 
 namespace WhatWatchToday
 {
@@ -23,6 +24,11 @@ namespace WhatWatchToday
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void MainButton_Click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }
