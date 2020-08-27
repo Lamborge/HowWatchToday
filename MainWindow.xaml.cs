@@ -55,7 +55,7 @@ namespace WhatWatchToday
             //MessageBox.Show(list_films[rnd.Next(0, list_films.Length)]);
 
             int num_film = rnd.Next(0, list_films.Length);
-            MessageBox.Show(list_films[num_film]);
+            MessageBox.Show($"Название: {list_films[num_film]}");
 
         }
     }
