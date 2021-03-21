@@ -2,13 +2,13 @@
 
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <TargetFramework>net5.0-windows</TargetFramework>
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
   <ItemGroup>
     <Reference Include="CsQuery">
-      <HintPath>C:\Users\Семья\Downloads\CsQuery.dll</HintPath>
+      <HintPath>D:\VS_projects\WhatWatchToday\CsQuery.dll</HintPath>
     </Reference>
   </ItemGroup>
 
